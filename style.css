@@ -1,0 +1,254 @@
+body{
+    color:white;
+    margin: 0;
+}
+
+nav{
+    background-color: black;
+    height:75px;
+    display:flex;
+    justify-content: center;
+}
+
+section{    
+    height: 700px;
+    background-color: #f037a5;
+    background: linear-gradient(#f037a5 -60%, #fae62d 140%);
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(-60%, #f037a5),
+      color-stop(140%, #fae62d)
+    );
+}
+
+
+.section-area{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.nav-area{
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.font1-span:hover{
+    color: #1db954;
+}
+
+.font2 {
+    font-size: 18px;
+    margin: 18px 0px;
+}
+
+
+.hero-img {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://www.scdn.co/i/home/hero-burst.svg");
+  }
+  
+#title {
+        color: white;
+        font-size: 80px;
+        font-weight: 900;
+        line-height: 1.15;
+        text-align: center;
+        margin-bottom: 20px;
+        letter-spacing: -0.04em;
+  }
+
+.btn-spotify {
+    border: 0px;
+    width: 260px;
+    color: white;
+    margin: 0 auto;
+    line-height: 1;
+    font-size: 14px;
+    margin-top: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 500px;
+    padding: 18px 42px 18px;
+    background-color: #1db954;
+    text-transform: uppercase;
+    transition-duration: 0.3s;
+}
+
+.btn-spotify:hover {
+    cursor: pointer;
+    background-color: #1ed760;
+  }
+
+.column {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  
+.font1 {
+    color: white;
+    font-weight: bold ;
+    padding: 10px 10px;
+    display:inline-block;
+    text-decoration: none;
+}
+
+.font:hover {
+    cursor: pointer;
+    background-color: #1ed760;
+}
+
+p{
+    font-size: 18px;
+}
+
+p:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    color:rgb(10, 190, 49);
+}
+
+.circle{
+    border-radius: 50%;
+    background-color: #222326;
+    width: 54px;
+    height: 54px;
+
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.fab{
+    font-size: 25px;
+    display:flex!important;
+    justify-content: center;
+}
+
+.fab1 {
+    display:flex;
+    justify-content: center;
+}
+
+.circle:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    color:rgb(10, 190, 49);
+}
+
+.top {
+    color: #919496;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: .08em;
+    margin: 20px 0;
+}
+
+.block {
+    display:block;
+}
+
+.block a {
+    display:block;  
+}
+
+.size {
+    padding: 3px 0 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    /* font-family:Helvetica, Arial, sans-serif; */
+    text-decoration: none;
+}
+
+.size:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    color:rgb(10, 190, 49);
+}
+
+
+/* Footer */
+footer{
+    background-color: black;
+    height:500px;
+    width:100%;
+    margin: 0 auto;
+}
+
+.container{
+    max-width:1024px;
+    width:100%;
+    height:100%;
+    /* border: 1px solid red; */
+    align-content: space-between;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+ 
+.first-footer{
+    display:flex;
+    justify-content: space-between;
+    min-height: 50%;
+    max-height: 50%;
+}
+
+.second-footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-height: 45%;
+    min-height: 45%;
+    width: 100%;
+}
+.footer-font {
+    padding: 1em 0;
+    font-size: 12px;
+    font-family:Helvetica, Arial, sans-serif;
+    padding: 0px 0px;
+    color: #919496;
+    text-decoration: none;
+    flex-shrink: 0;
+}
+.footer-row1 {
+    align-self:  flex-end;
+    padding-bottom: 10px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.footer-row2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-font:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    color:rgb(10, 190, 49);
+
+}
+.link-footer{
+    width: 50%;
+}
+
